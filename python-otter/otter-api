@@ -52,8 +52,8 @@ List Parameters:
                 o = eval('r.%s' % options.output)
                 if hasattr(o, 'o'):
                     o = o.o
-            except:
-                parser.error("processing output option: %s" % options.output)
+            except Exception, e:
+                parser.error("processing output option: %s: %s" % (options.output, e))
         print json.dumps(o, sort_keys=True, indent=2)
     except Exception, e:
         parser.error(e)
