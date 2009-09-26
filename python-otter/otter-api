@@ -22,12 +22,15 @@ if __name__ == '__main__':
   profilesearch   q                        Author profiles matching
   authorsearch    q,[window]               Authors talking about query
   searchcount     q,[window]               Count of results
-  linkposts       urpl,[contains]          Urls posted by author
+  linkposts       url,[contains]           Urls posted by author
+  linkpostcount   url,[contains]           Count urls posted by author
   urlinfo         url                      Info about url
   authorinfo      url                      Info about author
   tags            url                      Tags for url
   related         url                      Related urls
   trending                                 Trending terms
+  toplinks        [contains,window]        Top new links
+  toplinkcount    [contains,window]        Count of top new links
 List Parameters:
   page,perpage
 """
