@@ -4,7 +4,7 @@ setup(
     name='python-otter',
     version='0.1.0',
     description='Python bindings for Topsy Otter REST API',
-    long_desciption="""Otter API is a RESTful HTTP web service to Topsy.
+    long_description="""Otter API is a RESTful HTTP web service to Topsy.
 Topsy is a search engine that ranks URLs by the number and quality of tweets
 they receive. The quality of tweets is determined by the influence of the
 Twitter users (referred to as authors) - which is based on their position in
